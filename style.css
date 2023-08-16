@@ -30,8 +30,17 @@ body {
     margin: 1%;
     width: 100%;
     text-align: center;
+    
 }
-
+.stats-container:hover{
+    cursor: grab;
+}
+#first-game:hover {
+    box-shadow:  0 0 30px lightblue; 
+  }
+#second-game:hover {
+    box-shadow:  0 0 30px lightblue; 
+  }
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
 }
