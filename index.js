@@ -187,4 +187,4 @@ firstGameContainer.appendChild(game1);
 // do the same for the runner up item
 let game2 = document.createElement('h3');
 game2.textContent = `${second.name}`;
-secondGameContainer.appendChild(game2);
+secondGameContainer.appendChild(game2); 
